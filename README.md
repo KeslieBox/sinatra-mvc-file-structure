@@ -112,8 +112,7 @@ inherits from `Sinatra::Base`. When we start up a server, the server will spin
 up an instance of the `ApplicationController` class to run our app.
 
 You'll also notice there is a `configure` block already in the controller. This
-configure block tells the controller where to look to find the views (your
-pages with HTML to display text in the browser) and the public directory.
+configure block tells the controller where to look to find the views (your pages with HTML to display text in the browser) and the public directory.
 
 When a client makes a request to a server to load an application, the request
 is received and processed by the controller. We need to set up a controller
